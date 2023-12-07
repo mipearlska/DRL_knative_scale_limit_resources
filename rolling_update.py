@@ -193,7 +193,4 @@ def predict_traffic():
     now = datetime.now()
     current_time = now.strftime("%H:%M:%S")
     print("Current time = {}".format(current_time))
-    print("pred_workload_house = {}".format(workload_house))
-    print("pred_workload_senti = {}".format(workload_senti))
-    print("pred_workload_numbr = {}".format(workload_numbr))
     return workload_house, workload_senti, workload_numbr
