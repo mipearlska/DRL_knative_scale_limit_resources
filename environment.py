@@ -16,110 +16,34 @@ Train0 = [56, 24, 41, 51, 61, 26, 9, 60, 13, 37, 9, 52, 86, 93, 73, 31, 57, 26, 
 Train1 = [36, 46, 81, 54, 28, 6, 25, 42, 77, 27, 87, 16, 26, 27, 55, 47, 31, 20, 54, 3, 93, 53, 10, 94, 40, 15, 35, 73, 55, 97, 82, 7, 44, 60, 90, 39, 73, 53, 64, 48, 46, 11, 23, 61, 96, 39, 54, 41, 62, 40, 14, 11, 6, 64, 91, 84, 26, 95, 46, 50, 17, 84, 81, 82, 33, 53, 60, 3, 48, 26, 89, 51, 75, 48, 55, 60, 63, 15, 26, 17, 23, 82, 97, 51, 38, 90, 69, 81, 75, 89, 85, 69, 43, 53, 99, 54, 12, 32, 40, 69, 21, 3, 61, 52, 87, 54, 95, 52, 21, 52, 26, 44, 19, 76, 33, 68, 85, 25, 86, 20, 92, 73, 50, 92, 38, 36, 44, 35, 79, 16, 59, 85, 99, 67, 68, 87, 9, 18, 16, 47, 10, 49, 35, 66, 66, 5, 52, 89, 21, 89, 37, 99, 83, 10, 48, 70, 91, 50, 23, 25, 50, 43, 86, 59, 73, 57, 86, 2, 12, 84, 25, 80, 44, 14, 51, 60, 8, 73, 33, 20, 21, 42, 72, 57, 95, 2, 24, 64, 26, 18, 68, 26, 36, 92, 58, 78, 76, 69, 79, 76]
 Train2 = [1, 76, 45, 51, 6, 26, 23, 38, 30, 40, 92, 67, 36, 66, 51, 100, 20, 27, 73, 76, 97, 30, 1, 55, 53, 45, 14, 9, 97, 2, 66, 50, 39, 95, 84, 13, 85, 86, 50, 6, 39, 71, 89, 34, 40, 8, 100, 73, 100, 6, 76, 69, 98, 44, 18, 76, 27, 10, 94, 33, 22, 2, 2, 36, 61, 1, 67, 44, 30, 99, 5, 86, 30, 47, 60, 100, 91, 73, 9, 43, 79, 40, 71, 33, 60, 48, 83, 67, 81, 66, 83, 32, 42, 36, 39, 35, 44, 85, 64, 68, 71, 85, 37, 31, 57, 19, 33, 27, 28, 92, 75, 28, 95, 31, 44, 79, 45, 20, 54, 22, 56, 31, 7, 97, 5, 39, 39, 74, 63, 86, 58, 10, 3, 34, 70, 37, 43, 82, 100, 90, 37, 84, 22, 87, 30, 36, 22, 84, 72, 32, 60, 47, 17, 46, 63, 28, 33, 80, 37, 94, 45, 15, 44, 83, 63, 6, 62, 14, 16, 67, 83, 72, 63, 42, 77, 10, 2, 16, 46, 25, 17, 75, 32, 14, 70, 56, 85, 29, 24, 82, 91, 2, 51, 8, 30, 47, 37, 30, 51, 28]
 
-Train0 = [19, 16, 25, 47, 33, 15, 19, 13, 25, 50, 40, 66, 33, 55, 80, 33, 41, 22, 16, 18, 11, 8, 15, 9, 13, 8, 11, 8, 14, 11, 11, 19, 28, 70, 30, 27, 78, 55, 47, 44, 33, 34, 50, 66, 66, 69, 94, 53, 56, 86, 100, 56, 50, 69, 33, 25, 28, 55, 25, 17, 14, 18, 22, 12, 8, 9, 11, 8, 17, 15, 34, 28]
-Train1 = [36, 41, 33, 40, 35, 42, 31, 23, 25, 15, 17, 14, 16, 8, 12, 8, 12, 10, 11, 13, 11, 21, 15, 16, 12, 18, 19, 16, 25, 47, 33, 15, 19, 13, 25, 50, 40, 66, 35, 55, 80, 33, 41, 22, 16, 18, 11, 8, 15, 9, 13, 8, 11, 8, 14, 11, 11, 19, 28, 70, 30, 27, 78, 55, 47, 44, 33, 34, 50, 66, 66, 69]
-Train2 = [94, 53, 56, 86, 100, 56, 50, 69, 33, 25, 28, 55, 25, 17, 14, 18, 22, 12, 8, 9, 11, 8, 17, 15, 34, 28, 36, 41, 33, 40, 35, 42, 31, 23, 25, 15, 17, 14, 16, 8, 12, 8, 12, 10, 11, 13, 11, 21, 15, 16, 12, 18, 19, 16, 25, 47, 33, 15, 19, 13, 25, 50, 40, 66, 35, 55, 80, 33, 41, 22, 16, 18]
+# Train0 = [34, 50, 67, 69, 71, 94, 52, 54, 88, 103, 56, 50, 69, 37, 26, 29, 56, 27, 17, 24]
+Train0 = [34, 50, 66, 66, 69, 94, 53, 56, 86, 100, 56, 50, 69, 33, 25, 28, 55, 25, 17, 13]
+# Train1 = [20, 69, 29, 28, 73, 54, 47, 44, 34, 34, 50, 67, 69, 71, 94, 52, 54, 88, 103, 34]
+Train1 = [28, 70, 30, 27, 78, 55, 47, 44, 33, 34, 50, 66, 66, 69, 94, 53, 56, 86, 100, 34]
+Train2 = [16, 25, 47, 33, 15, 19, 13, 25, 50, 40, 66, 35, 55, 80, 33, 41, 22, 16, 18, 14]
 
-Train0 = [19, 28, 70, 30, 27, 78, 55, 47, 44, 33, 34, 50, 66, 66, 69, 94, 53, 56, 86, 100]
-Train1 = [15, 19, 13, 25, 50, 40, 66, 35, 55, 80, 33, 41, 22, 16, 18, 11, 8, 15, 9, 13]
-Train2 = [33, 34, 50, 66, 66, 69, 94, 53, 56, 86, 100, 56, 50, 69, 33, 25, 28, 55, 25, 17]
+
 print(len(Train0), len(Train1),len(Train2))
 
-class ParallelServiceSLO(gym.Env):
-    """
-    Description:
-        Based on current
-        - Each service's claimed resources allocation
-        - Each service's response latency
-        - Each service's next time step predicted traffic
-
-        RL Agent provides a scaling configuration for all parallel services that can
-        ** Satisfy all services' SLO Latency
-        ** Minimize the SUM of Latency of all services
-
-    Observation: (consider 3 parallel services)
-        - Fixed Parameter:
-
-        * Namespace Total Resource
-        * Service0 Latency SLO
-        * Service1 Latency SLO
-        * Service2 Latency SLO
-
-
-        - Type: Box(3,3)
-
-        Index   0                              1                              2
-        0       Service0 Claimed Resources     Service0 Current Latency       Service0 Next Predicted Traffic
-        1       Service1 Claimed Resources     Service1 Current Latency       Service1 Next Predicted Traffic
-        2       Service2 Claimed Resources     Service2 Current Latency       Service2 Next Predicted Traffic
-
-        - State Value Range:
-
-        Type                 Min       Max       Note
-        Claimed Resources    0         100       Percentage over the fixed resources that was assigned for namespace
-        Current Latency      0         100       Percentage over the Latency SLO of each service (>100% = violation)
-        Predicted Traffic    0         Top*      Top = Highest traffic record in the historical traffic database
-
-    Actions:
-        - Type: MultiDiscrete([MaxS0, MaxS1, MaxS2])
-
-        Index      0                          1                           2
-        0          Service0_Scaling_Config    Service1_Scaling_Config     Service2_Scaling_Config
-
-        - Action Value Range:
-
-        Scaling_Config_of    Min       Max         Note
-        Service0             0         1+MaxS0     MaxS0: Total possible AssignedResource-Concurrency Pair of Service0
-        Service1             0         1+MaxS1     MaxS1: Total possible AssignedResource-Concurrency Pair of Service1
-        Service2             0         1+MaxS2     MaxS2: Total possible AssignedResource-Concurrency Pair of Service2
-
-        - How to find MaxS0, MaxS1, MaxS2?
-
-        * Each service has a AssignedResource range [MinResource,MaxResource] (Min = Minimum to run service, Max = Saturated resource level, increasing more level will not increase service performance)
-        * Each AssignedResource Level has a maximum Concurrency that can still guarantee service's Latency SLO
-        * --> Each AssignedResource Level has a range of possible Concurrency configuration from 0 to MaxConcurrency [0, MaxConcurrency]. Split this range by a step of 10
-        * --> MaxSn = Number of different AssignedResource Level * Number of different Concurrency Level per each AssignedResourceLevel
-
-        * Example Service0: AssignedResource range [1000mCPU, 2500mCPU], Possible Actions: 7 --> MaxS0 = 7
-
-        Index    CPU_Level     Concurrency_Level
-        0        1000          10       (5  Max) (larger concurrency = SLO violation)
-        1        1500          10       (10 Max)
-        2,3      2000          10,20    (20 Max)
-        4,5,6    2500          10,20,30 (30 Max)
-
-        - Agent need to pre-calculated total expected resources usage for future traffic from all services,
-        if Expected > Namespace Resource, remove that action from possible actions from the action space
-        if no action available, action AllZero 0-0-0 will be chosen, which tell the system to redirect the request
-
-
-    Reward:
-
-        Reward = 1 / Sum of all Service Latency
-
-        Reward =  VeryHigh for AllZero Action 0-0-0/ Keep previous reward?
-
-    Starting State:
-        ...
-
-    Episode Termination:
-        After train through all traffic data
-    """
+class Parallel2(gym.Env):
 
     def __init__(self, config):
         self.test = config["test"]
         self.trafficindex = 0
-        self.namespace_resource = 60 #Worker_node_has_60CPUs
+        self.namespace_resource = 40 #Worker_node_has_60CPUs
         self.service0_SLO = 1200 #house_price_inference_app
-        self.service1_SLO = 3000 #sentiment_analysis_app
+        self.service1_SLO = 2200 #sentiment_analysis_app
         self.service2_SLO = 900 #number_recognition_app
         self.service0_action = np.array([[1.5, 10, 1100], [2, 10, 690], [2, 15, 1000], [2.5, 10, 500], [2.5, 15, 730], [2.5, 20, 890], [2.5, 25, 1100], [3, 10, 390], [3, 20, 700], [3, 30, 900], [3, 35, 960], [3.5, 10, 340], [3.5, 20, 530], [3.5, 30, 530], [3.5, 40, 990], [3.5, 45, 1000], [4, 10, 230], [4, 20, 450], [4, 30, 670], [4, 40, 820], [4, 50, 1000], [4, 60, 1100]]) #22 actions
-        self.service1_action = np.array([[3, 10, 2500], [4, 10, 1800], [4, 15, 2600], [5, 10, 1400], [5, 15, 2100], [5, 20, 2600], [6, 10, 1100], [6, 15, 1700], [6, 20, 2300], [6, 25, 2900]]) #10 actions
+        self.service1_action = np.array([[2, 10, 1500], [2, 15, 2200], [3, 10, 1000], [3, 15, 1500], [4, 10, 800], [4, 15, 1300], [4, 20, 2000]]) #7 actions
         self.service2_action = np.array([[0.5, 10, 900], [1, 10, 420], [1, 15, 630], [1, 20, 800], [2, 10, 370], [2, 15, 560], [2, 20, 700], [2, 25, 860]]) #8 actions
-        self.action_space = spaces.MultiDiscrete([22, 10, 8])
+        self.action_space = spaces.MultiDiscrete([22, 7, 8])
         self.observation_space = spaces.Box(low=np.array([0, 0, 0, 0, 0, 0, 0, 0, 0]), high=np.array([100, 100, 100, 100, 100, 100, 100, 100, 100]), dtype=int)
 
-        self.state = np.array([1, 1, 56, 1, 1, 56, 1, 1, 1], dtype=int)
+        self.state = np.array([10, 25, 34, 20, 64, 28, 10, 55, 16], dtype=int)
+        self.prevAction = np.array([21, 6, 7], dtype=int)
+        self.prevPod = np.array([1, 2, 1], dtype=int)
+        self.prevRes = np.array([4, 8, 4], dtype=np.float32)
 
     def reset(self, *, seed=None, options=None):
         """Resets the episode.
@@ -127,19 +51,159 @@ class ParallelServiceSLO(gym.Env):
         Returns:
             Initial observation of the new episode and an info dict.
         """
-        self.state = np.array([1, 1, 56, 1, 1, 36, 1, 1, 1], dtype=int)
+        self.prevAction = np.array([21, 6, 7], dtype=int)
+        self.prevPod = np.array([1, 2, 1], dtype=int)
+        self.prevRes = np.array([4, 8, 4], dtype=np.float32)
+        self.state = np.array([10, 25, 34, 20, 64, 28, 10, 55, 16], dtype=int)
         self.trafficindex = 0
         # Return initial observation.
         return self.state, {}
 
     def step(self, action):
         self.trafficindex += 1
+        print("TrafficEnv", self.state[2], self.state[5], self.state[8])
+        print("PrevEnvRes", self.prevRes)
+        print("PrevEnvPod", self.prevPod)
+        print("PrevEnvAct", self.prevAction, self.service0_action[self.prevAction[0]], self.service1_action[self.prevAction[1]], self.service2_action[self.prevAction[2]])
+        #print("CurrEnvAct", action, self.service0_action[action[0]], self.service1_action[action[1]], self.service2_action[action[2]])
         """Takes a single step in the episode given `action`.
 
         Returns:
             New observation, reward, terminated-flag, truncated-flag, info-dict (empty).
         """
         terminated = False
+
+        update_resource_service0 = 0
+        update_resource_service1 = 0
+        update_resource_service2 = 0
+        new_resource_service0 = 0
+        new_resource_service1 = 0
+        new_resource_service2 = 0
+        tempnewRes = np.array([0, 0, 0], dtype=int)
+        decreasePodFlag = np.array([0, 0, 0], dtype=int)
+        changeConfigFlag = 0
+
+        tempnewRes[0] = math.ceil(self.state[2] / self.service0_action[action[0]][1] / 0.7) * self.service0_action[action[0]][0]
+        tempnewRes[1] = math.ceil(self.state[5] / self.service1_action[action[1]][1] / 0.7) * self.service1_action[action[1]][0]
+        tempnewRes[2] = math.ceil(self.state[8] / self.service2_action[action[2]][1] / 0.7) * self.service2_action[action[2]][0]
+        tempnewTotalRes = tempnewRes[0] + tempnewRes[1] + tempnewRes[2]
+
+        if self.service0_action[self.prevAction[0]][0] == self.service0_action[action[0]][0] and self.service0_action[self.prevAction[0]][1] == self.service0_action[action[0]][1]: #same config
+            if math.ceil(self.state[2] / self.service0_action[action[0]][1] / 0.7) < self.prevPod[0]:
+                decreasePodFlag[0] = 1
+
+        if self.service1_action[self.prevAction[1]][0] == self.service1_action[action[1]][0] and self.service1_action[self.prevAction[1]][1] == self.service1_action[action[1]][1]: #same config
+            if math.ceil(self.state[5] / self.service1_action[action[1]][1] / 0.7) < self.prevPod[1]:
+                decreasePodFlag[1] = 1
+
+        if self.service2_action[self.prevAction[2]][0] == self.service2_action[action[2]][0] and self.service2_action[self.prevAction[2]][1] == self.service2_action[action[2]][1]: #same config
+            if math.ceil(self.state[8] / self.service2_action[action[2]][1] / 0.7) < self.prevPod[2]:
+                decreasePodFlag[2] = 1
+
+        #if there are service that keep old settings and decrease pod, only create new Revision (update min-scale) if newTotalRes <= Limit and prevTotalres > Limit
+        #Otherwise, Dont update (min-scale), (Accept Deploying more pod than actually required)
+        temptotalRes = 0
+        if decreasePodFlag[0] == 1 or decreasePodFlag[1] == 1 or decreasePodFlag[2] == 1:
+            for i in range (0,2):
+                if decreasePodFlag[i] == 1:
+                    temptotalRes += self.prevRes[i]
+                else:
+                    temptotalRes += tempnewRes[i]
+
+            if tempnewTotalRes > 40:
+                changeConfigFlag = 0 #keep old Revision
+            elif tempnewTotalRes <= 40:
+                if temptotalRes > 40:
+                    changeConfigFlag = 1 #change
+
+
+
+        #ServiceHouse NewResource calculation
+        if self.service0_action[self.prevAction[0]][0] == self.service0_action[action[0]][0] and self.service0_action[self.prevAction[0]][1] == self.service0_action[action[0]][1]: #same config
+            if math.ceil(self.state[2] / self.service0_action[action[0]][1] / 0.7) > self.prevPod[0]: #increasePod
+                if self.service0_action[self.prevAction[0]][2] <= 730: #current SV Latency < 730 (low enough), use normal KHPA
+                    update_resource_service0 = (math.ceil(self.state[2] / self.service0_action[action[0]][1] / 0.7) - self.prevPod[0]) * self.service0_action[action[0]][0]
+                    new_resource_service0 = self.prevRes[0] + update_resource_service0
+                    self.prevPod[0] = math.ceil(self.state[2] / self.service0_action[action[0]][1] / 0.7)
+                else: #current latency too high, cannot tolerate K-HPA
+                    update_resource_service0 = math.ceil(self.state[2] / self.service0_action[action[0]][1] / 0.7) * self.service0_action[action[0]][0]
+                    new_resource_service0 = update_resource_service0
+                    self.prevPod[0] = math.ceil(self.state[2] / self.service0_action[action[0]][1] / 0.7)
+            elif math.ceil(self.state[2] / self.service0_action[action[0]][1] / 0.7) == self.prevPod[0]: #samePod
+                update_resource_service0 = 0
+                new_resource_service0 = self.prevRes[0]
+            else: #decreasePod
+                if changeConfigFlag == 0: #keepOldRevision Flag
+                    update_resource_service0 = 0
+                    new_resource_service0 = self.prevRes[0]
+                else: #ChangeRevision Flag
+                    update_resource_service0 = math.ceil(self.state[2] / self.service0_action[action[0]][1] / 0.7) * self.service0_action[action[0]][0]
+                    new_resource_service0 = update_resource_service0
+                    self.prevPod[0] = math.ceil(self.state[2] / self.service0_action[action[0]][1] / 0.7)
+        else: #Different Config
+            update_resource_service0 = math.ceil(self.state[2] / self.service0_action[action[0]][1] / 0.7) * self.service0_action[action[0]][0]
+            new_resource_service0 = update_resource_service0
+            self.prevPod[0] = math.ceil(self.state[2] / self.service0_action[action[0]][1] / 0.7)
+
+
+        #ServiceSenti NewResource calculation
+        if self.service1_action[self.prevAction[1]][0] == self.service1_action[action[1]][0] and self.service1_action[self.prevAction[1]][1] == self.service1_action[action[1]][1]: #same config
+            if math.ceil(self.state[5] / self.service1_action[action[1]][1] / 0.7) < self.prevPod[1]: #Decrease Pod
+                if changeConfigFlag == 0: # Keep Old Revision Flag
+                    update_resource_service1 = 0
+                    new_resource_service1 = self.prevRes[1]
+                else: # Change Revision Flag
+                    update_resource_service1 = math.ceil(self.state[5] / self.service1_action[action[1]][1] / 0.7) * self.service1_action[action[1]][0]
+                    new_resource_service1 = update_resource_service1
+                    self.prevPod[1] = math.ceil(self.state[5] / self.service1_action[action[1]][1] / 0.7)
+            else: #Increase Pod
+                if self.service1_action[self.prevAction[1]][2] <= 1500 and math.ceil(self.state[5] / self.service1_action[action[1]][1] / 0.7) - self.prevPod[1] <= 2: #old latency low enough + increase <= 2 pods
+                    update_resource_service1 = (math.ceil(self.state[5] / self.service1_action[action[1]][1] / 0.7) - self.prevPod[1]) * self.service1_action[action[1]][0]
+                    new_resource_service1 = self.prevRes[1] + update_resource_service1
+                    self.prevPod[1] = math.ceil(self.state[5] / self.service1_action[action[1]][1] / 0.7)
+                else: #high latency or low latency but increase > 2 pods
+                    if math.ceil(self.state[5] / self.service1_action[action[1]][1] / 0.7) == self.prevPod[1]:
+                        update_resource_service1 = 0
+                        new_resource_service1 = self.prevRes[1]
+                    else:
+                        update_resource_service1 = math.ceil(self.state[5] / self.service1_action[action[1]][1] / 0.7) * self.service1_action[action[1]][0]
+                        new_resource_service1 = update_resource_service1
+                        self.prevPod[1] = math.ceil(self.state[5] / self.service1_action[action[1]][1] / 0.7)
+        else: # Different Config
+            update_resource_service1 = math.ceil(self.state[5] / self.service1_action[action[1]][1] / 0.7) * self.service1_action[action[1]][0]
+            new_resource_service1 = update_resource_service1
+            self.prevPod[1] = math.ceil(self.state[5] / self.service1_action[action[1]][1] / 0.7)
+
+        #ServiceNumber NewResource calculation
+        if self.service2_action[self.prevAction[2]][0] == self.service2_action[action[2]][0] and self.service2_action[self.prevAction[2]][1] == self.service2_action[action[2]][1]: #same config
+            if math.ceil(self.state[8] / self.service2_action[action[2]][1] / 0.7) > self.prevPod[2]: #increasePod
+                if self.service2_action[self.prevAction[2]][2] <= 630: #current SV Latency < 630 (low enough)
+                    update_resource_service2 = (math.ceil(self.state[8] / self.service2_action[action[2]][1] / 0.7) - self.prevPod[2]) * self.service2_action[action[2]][0]
+                    new_resource_service2 = self.prevRes[2] + update_resource_service2
+                    self.prevPod[2] = math.ceil(self.state[8] / self.service2_action[action[2]][1] / 0.7)
+                else:
+                    update_resource_service2 = math.ceil(self.state[8] / self.service2_action[action[2]][1] / 0.7) * self.service2_action[action[2]][0]
+                    new_resource_service2 = update_resource_service2
+                    self.prevPod[2] = math.ceil(self.state[8] / self.service2_action[action[2]][1] / 0.7)
+            elif math.ceil(self.state[8] / self.service2_action[action[2]][1] / 0.7) == self.prevPod[2]: #samePod
+                update_resource_service2 = 0
+                new_resource_service2= self.prevRes[2]
+            else: #decreasePod
+                if changeConfigFlag == 0:
+                    update_resource_service2 = 0
+                    new_resource_service2= self.prevRes[2]
+                else:
+                    update_resource_service2 = math.ceil(self.state[8] / self.service2_action[action[2]][1] / 0.7) * self.service2_action[action[2]][0]
+                    new_resource_service2 = update_resource_service2
+                    self.prevPod[2] = math.ceil(self.state[8] / self.service2_action[action[2]][1] / 0.7)
+        else:
+            update_resource_service2 = math.ceil(self.state[8] / self.service2_action[action[2]][1] / 0.7) * self.service2_action[action[2]][0]
+            new_resource_service2 = update_resource_service2
+            self.prevPod[2] = math.ceil(self.state[8] / self.service2_action[action[2]][1] / 0.7)
+
+        #print("New Resource", new_resource_service0, new_resource_service1, new_resource_service2, new_resource_service0 + new_resource_service1 + new_resource_service2)
+        #print("UpdateTotalRes", self.prevRes[0] + self.prevRes[1] + self.prevRes[2] + update_resource_service0 + update_resource_service1 + update_resource_service2)
+
 
         if self.trafficindex > 199:
             truncated = True
@@ -148,79 +212,67 @@ class ParallelServiceSLO(gym.Env):
             service1_sub_reward = self.service1_SLO / self.service1_action[action[1]][2]
             service2_sub_reward = self.service2_SLO / self.service2_action[action[2]][2]
 
-            service0_resource = math.ceil(self.state[2] / self.service0_action[action[0]][1] / 0.7) * self.service0_action[action[0]][0]
-            service1_resource = math.ceil(self.state[5] / self.service1_action[action[1]][1] / 0.7) * self.service1_action[action[1]][0]
-            service2_resource = math.ceil(self.state[8] / self.service2_action[action[2]][1] / 0.7) * self.service2_action[action[2]][0]
-            total_resource = service0_resource + service1_resource + service2_resource
+            total_resource = new_resource_service0 + new_resource_service1 + new_resource_service2
 
             if self.namespace_resource < total_resource:
                 reward = -100
             else:
-                reward = 100*(service0_sub_reward + service1_sub_reward + service2_sub_reward + self.namespace_resource/total_resource)
+                reward = 100*(service0_sub_reward + service1_sub_reward + service2_sub_reward + 9*self.namespace_resource/total_resource)
         else:
             truncated = False
-            # if action[0] == 0 or action[1] == 0 or action[2] == 0:
-            #     service0_special_reward = self.service0_SLO / 10000
-            #     service1_special_reward = self.service1_SLO / 10000
-            #     service2_special_reward = self.service2_SLO / 10000
-            #     # reward = service0_special_reward + service1_special_reward + service2_special_reward
-            #     reward = -1
-            #     self.state[2] = Train0[self.trafficindex]
-            #     self.state[5] = Train1[self.trafficindex]
-            #     self.state[8] = Train2[self.trafficindex]
-            #     self.state[0] = int(0)
-            #     self.state[1] = int(0)
-            #     self.state[3] = int(0)
-            #     self.state[4] = int(0)
-            #     self.state[6] = int(0)
-            #     self.state[7] = int(0)
 
-            # else:
             service0_sub_reward = self.service0_SLO / self.service0_action[action[0]][2]
             service1_sub_reward = self.service1_SLO / self.service1_action[action[1]][2]
             service2_sub_reward = self.service2_SLO / self.service2_action[action[2]][2]
 
-            service0_resource = math.ceil(self.state[2] / self.service0_action[action[0]][1] / 0.7) * self.service0_action[action[0]][0]
-            service1_resource = math.ceil(self.state[5] / self.service1_action[action[1]][1] / 0.7) * self.service1_action[action[1]][0]
-            service2_resource = math.ceil(self.state[8] / self.service2_action[action[2]][1] / 0.7) * self.service2_action[action[2]][0]
-            total_resource = service0_resource + service1_resource + service2_resource
-            print(total_resource)
-
+            total_resource = new_resource_service0 + new_resource_service1 + new_resource_service2
+            total_update_resource = self.prevRes[0] + self.prevRes[1] + self.prevRes[2] + update_resource_service0 + update_resource_service1 + update_resource_service2
 
             if self.namespace_resource < total_resource:
-              #reward = -1000*(service0_sub_reward + service1_sub_reward + service2_sub_reward)
-              #reward = -100*(total_resource/self.namespace_resource)
-              reward = -100
-              self.state[2] = Train0[self.trafficindex]
-              self.state[5] = Train1[self.trafficindex]
-              self.state[8] = Train2[self.trafficindex]
-              self.state[0] = int(0)
-              self.state[1] = int(0)
-              self.state[3] = int(0)
-              self.state[4] = int(0)
-              self.state[6] = int(0)
-              self.state[7] = int(0)
+                #print(total_resource)
+                reward = -100
 
             else:
-              #reward = (service0_sub_reward + service1_sub_reward + service2_sub_reward)*100
-              reward = 100*(service0_sub_reward + service1_sub_reward + service2_sub_reward + self.namespace_resource/total_resource)
+                print(total_resource, total_update_resource)
+                if self.namespace_resource >= total_update_resource:
+                    print("nice")
+                    reward = 200*(service0_sub_reward + service1_sub_reward + service2_sub_reward + 9*self.namespace_resource/total_resource)
+                else:
+                    reward = 100*(service0_sub_reward + service1_sub_reward + service2_sub_reward + 9*self.namespace_resource/total_resource)
 
-              nextstate_service0_resource = service0_resource / self.namespace_resource * 100
-              nextstate_service1_resource = service1_resource / self.namespace_resource * 100
-              nextstate_service2_resource = service2_resource / self.namespace_resource * 100
-              self.state[0] = int(nextstate_service0_resource)
-              self.state[3] = int(nextstate_service1_resource)
-              self.state[6] = int(nextstate_service2_resource)
+            nextstate_service0_resource = new_resource_service0 / self.namespace_resource * 100
+            nextstate_service1_resource = new_resource_service1 / self.namespace_resource * 100
+            nextstate_service2_resource = new_resource_service2 / self.namespace_resource * 100
 
-              nextstate_service0_latency = self.service0_action[action[0]][2] / self.service0_SLO * 100
-              nextstate_service1_latency = self.service1_action[action[1]][2] / self.service1_SLO * 100
-              nextstate_service2_latency = self.service2_action[action[2]][2] / self.service2_SLO * 100
-              self.state[1] = int(nextstate_service0_latency)
-              self.state[4] = int(nextstate_service1_latency)
-              self.state[7] = int(nextstate_service2_latency)
+            if nextstate_service0_resource > 100:
+                nextstate_service0_resource = 100
+            if nextstate_service1_resource > 100:
+                nextstate_service1_resource = 100
+            if nextstate_service2_resource > 100:
+                nextstate_service2_resource = 100
 
-              self.state[2] = Train0[self.trafficindex]
-              self.state[5] = Train1[self.trafficindex]
-              self.state[8] = Train2[self.trafficindex]
+            self.state[0] = int(nextstate_service0_resource)
+            self.state[3] = int(nextstate_service1_resource)
+            self.state[6] = int(nextstate_service2_resource)
+
+            nextstate_service0_latency = self.service0_action[action[0]][2] / self.service0_SLO * 100
+            nextstate_service1_latency = self.service1_action[action[1]][2] / self.service1_SLO * 100
+            nextstate_service2_latency = self.service2_action[action[2]][2] / self.service2_SLO * 100
+            self.state[1] = int(nextstate_service0_latency)
+            self.state[4] = int(nextstate_service1_latency)
+            self.state[7] = int(nextstate_service2_latency)
+
+            self.state[2] = Train0[self.trafficindex]
+            self.state[5] = Train1[self.trafficindex]
+            self.state[8] = Train2[self.trafficindex]
+
+            self.prevAction = action
+            self.prevRes[0] = new_resource_service0
+            self.prevRes[1] = new_resource_service1
+            self.prevRes[2] = new_resource_service2
+            print("EnvUpdatePRes", self.prevRes)
+            print("EnvUpdatePPod", self.prevPod)
+            print("EnvUpdatePAction", self.prevAction, self.service0_action[self.prevAction[0]], self.service1_action[self.prevAction[1]], self.service2_action[self.prevAction[2]])
+
 
         return self.state, reward, terminated, truncated, {}
