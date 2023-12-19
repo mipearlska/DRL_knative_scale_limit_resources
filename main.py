@@ -13,17 +13,17 @@ from sb3_contrib import TRPO
 
 global state
 
-state = np.array([13, 27, 19, 15, 53, 15, 13, 88, 33], dtype=int)
-gprevAction = np.array([21, 6, 7], dtype=int)
+state = np.array([10, 25, 34, 20, 64, 28, 10, 55, 16], dtype=int)
+gprevAction = np.array([21, 6, 7], dtype=int) #[4,60,1100] / [4,20,2000] / [2,25,860]
 gprevPod = np.array([1, 2, 1], dtype=int)
 gprevRes = np.array([4, 8, 4], dtype=np.float32)
 tervice0_action = np.array([[1.5, 10, 1100], [2, 10, 690], [2, 15, 1000], [2.5, 10, 500], [2.5, 15, 730], [2.5, 20, 890], [2.5, 25, 1100], [3, 10, 390], [3, 20, 700], [3, 30, 900], [3, 35, 960], [3.5, 10, 340], [3.5, 20, 530], [3.5, 30, 530], [3.5, 40, 990], [3.5, 45, 1000], [4, 10, 230], [4, 20, 450], [4, 30, 670], [4, 40, 820], [4, 50, 1000], [4, 60, 1100]]) #22 actions
 tervice1_action = np.array([[2, 10, 1500], [2, 15, 2200], [3, 10, 1000], [3, 15, 1500], [4, 10, 800], [4, 15, 1300], [4, 20, 2000]]) #7 actions
 tervice2_action = np.array([[0.5, 10, 900], [1, 10, 420], [1, 15, 630], [1, 20, 800], [2, 10, 370], [2, 15, 560], [2, 20, 700], [2, 25, 860]]) #8 actions
 
-Train0 = [34, 50, 66, 66, 69, 94, 53, 56, 86, 100, 56, 50, 69, 33, 25, 28, 55, 25, 17, 13]
-Train1 = [28, 70, 30, 27, 78, 55, 47, 44, 33, 34, 50, 66, 66, 69, 94, 53, 56, 86, 100, 34]
-Train2 = [16, 25, 47, 33, 15, 19, 13, 25, 50, 40, 66, 35, 55, 80, 33, 41, 22, 16, 18, 14]
+# Train0 = [34, 50, 66, 66, 69, 94, 53, 56, 86, 100, 56, 50, 69, 33, 25, 28, 55, 25, 17, 13]
+# Train1 = [28, 70, 30, 27, 78, 55, 47, 44, 33, 34, 50, 66, 66, 69, 94, 53, 56, 86, 100, 34]
+# Train2 = [16, 25, 47, 33, 15, 19, 13, 25, 50, 40, 66, 35, 55, 80, 33, 41, 22, 16, 18, 14]
 
 
 def get_traffic_metric(generatorIP, generatorName, serviceName):
@@ -215,12 +215,12 @@ def resource_calculate(traffic0, traffic1, traffic2, index0, index1, index2, pre
   return new_resource_service0, new_resource_service1, new_resource_service2, total_update_resource, tprevPod
 
 
-def predict(api, model, index):
+def predict(api, model):
 
     print("------------------------------------------------")
     print("------------------------------------------------")
     print("------------------------------------------------")
-    print(gprevAction, gprevPod, gprevRes)
+    #print(gprevAction, gprevPod, gprevRes)
 
     service0_action = np.array([[1.5, 10, 1100], [2, 10, 690], [2, 15, 1000], [2.5, 10, 500], [2.5, 15, 730], [2.5, 20, 890], [2.5, 25, 1100], [3, 10, 390], [3, 20, 700], [3, 30, 900], [3, 35, 960], [3.5, 10, 340], [3.5, 20, 530], [3.5, 30, 530], [3.5, 40, 990], [3.5, 45, 1000], [4, 10, 230], [4, 20, 450], [4, 30, 670], [4, 40, 820], [4, 50, 1000], [4, 60, 1100]]) #22 actions
     service1_action = np.array([[2, 10, 1500], [2, 15, 2200], [3, 10, 1000], [3, 15, 1500], [4, 10, 800], [4, 15, 1300], [4, 20, 2000]]) #7 actions
@@ -234,23 +234,23 @@ def predict(api, model, index):
     # state[4] = get_latency_metric("192.168.26.20", "generator2")
     # state[7] = get_latency_metric("192.168.26.41", "generator3")
 
-    # get_traffic_metric("192.168.26.42", "generator1", "house")
-    # get_traffic_metric("192.168.26.20", "generator2", "senti")
-    # get_traffic_metric("192.168.26.41", "generator3", "numbr")
-    # predicted_house, predicted_senti, predicted_numbr = rolling_update.predict_traffic()
+    get_traffic_metric("192.168.26.42", "generator1", "house")
+    get_traffic_metric("192.168.26.20", "generator2", "senti")
+    get_traffic_metric("192.168.26.41", "generator3", "numbr")
+    predicted_house, predicted_senti, predicted_numbr = rolling_update.predict_traffic()
     
-    # state[2] = int(float(str(predicted_house)))
-    # state[5] = int(float(str(predicted_senti)))
-    # state[8] = int(float(str(predicted_numbr)))
+    state[2] = int(float(str(predicted_house)))
+    state[5] = int(float(str(predicted_senti)))
+    state[8] = int(float(str(predicted_numbr)))
 
-    state[2] = Train0[index]
-    state[5] = Train1[index]
-    state[8] = Train2[index]
-    predicted_house = Train0[index]
-    predicted_senti = Train1[index]
-    predicted_numbr = Train2[index]
+    # state[2] = Train0[index]
+    # state[5] = Train1[index]
+    # state[8] = Train2[index]
+    # predicted_house = Train0[index]
+    # predicted_senti = Train1[index]
+    # predicted_numbr = Train2[index]
 
-    print("Input state: ", state)
+    #print("Input state: ", state)
     # service0_sub_reward = 100 / state[1]
     # service1_sub_reward = 100 / state[4]
     # service2_sub_reward = 100 / state[7]
@@ -270,26 +270,28 @@ def predict(api, model, index):
     gprevRes[0] = res1
     gprevRes[1] = res2
     gprevRes[2] = res3
-    print(gprevAction, gprevPod, gprevRes)
+    #print(gprevAction, gprevPod, gprevRes)
 
-    print(res1+res2+res3, upRestotal)
+    print("Updating resource usage - After update", upRestotal, res1+res2+res3)
     if upRestotal <= 40:
-        print("nice")
+        print("Below Limit")
     
-    print("Action: ", service0_action[action[0]], service1_action[action[1]], service2_action[action[2]])
+    print("ActionHouse: ", service0_action[action[0]][0], service0_action[action[0]][1])
+    print("ActionSenti: ", service0_action[action[1]][0], service0_action[action[1]][1])
+    print("ActionNumbr: ", service0_action[action[2]][0], service0_action[action[2]][1])
     print("housepod", gprevPod[0])
     print("sentipod", gprevPod[1])
     print("numbrpod", gprevPod[2])
 
     servicehouse_resource = int(service0_action[action[0]][0] * 1000)
     servicehouse_concurrency = int(service0_action[action[0]][1])
-    servicehouse_podcount = int(math.ceil(state[2] / service0_action[action[0]][1] / 0.7))
+    servicehouse_podcount = int(gprevPod[0])
     servicesenti_resource = int(service1_action[action[1]][0] * 1000)
     servicesenti_concurrency = int(service1_action[action[1]][1])
-    servicesenti_podcount = int(math.ceil(state[5] / service1_action[action[1]][1] / 0.7))
+    servicesenti_podcount = int(gprevPod[1])
     servicenumbr_resource = int(service2_action[action[2]][0] * 1000)
     servicenumbr_concurrency = int(service2_action[action[2]][1])
-    servicenumbr_podcount = int(math.ceil(state[8] / service2_action[action[2]][1] / 0.7))   
+    servicenumbr_podcount = int(gprevPod[2])   
 
     # service0_resource = math.ceil(state[2] / service0_action[action[0]][1] / 0.7) * service0_action[action[0]][0]
     # service1_resource = math.ceil(state[5] / service1_action[action[1]][1] / 0.7) * service1_action[action[1]][0]
@@ -373,7 +375,7 @@ def predict(api, model, index):
         plural="drlscaleactions",
         body=DRL_Action_resource,
     )
-        
+
 
 if __name__ == '__main__':
     os.system("cp dataset/request_house.bak dataset/request_house.csv")
@@ -390,13 +392,13 @@ if __name__ == '__main__':
     finaltrain_model_path = "/root/DRL_limit_resource_knative_scale/B_tt_TRPOtanh128.zip"
     model = TRPO.load(finaltrain_model_path, env=env)
 
-    for i in range (19):
-        predict(api, model, i)
-    #schedule.every().minute.at(":55").do(lambda: predict(api, model))
+    # for i in range (19):
+    #     predict(api, model, i)
+    schedule.every(2).minutes.at(":55").do(lambda: predict(api, model))
     #schedule.every().minute.at(":25").do(lambda: predict(api))
     #schedule.every().minute.at(":30").do(predict)
-    # while True:
-    #     schedule.run_pending()
-    #     time.sleep(1)
+    while True:
+        schedule.run_pending()
+        time.sleep(1)
 
 
