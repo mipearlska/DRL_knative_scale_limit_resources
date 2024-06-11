@@ -1,4 +1,7 @@
-# DRL Agent, takes ML Traffic Prediction as input and return the DRL Scaling Actions of all services CRD as output for the Quota-based Hybrid Scaling Operator
+# DRL Agent in Concurrent Service Auto-scaling for Knative Resource quota-based Serverless System paper
+https://doi.org/10.1016/j.future.2024.06.019
+-input: ML Traffic Prediction of all concurrent services
+-output: DRLScaleAction CRD (the Quota-based Knative Hybrid autoscaling Operator uses this as input to apply the scaling action)
 
 ## Requirements for running
 - Install DRLScaleAction CRD from https://github.com/mipearlska/knative_drl_operator
