@@ -23,7 +23,7 @@ Train1 = [28, 70, 30, 27, 78, 55, 47, 44, 33, 34, 50, 66, 66, 69, 94, 53, 56, 86
 Train2 = [16, 25, 47, 33, 15, 19, 13, 25, 50, 40, 66, 35, 55, 80, 33, 41, 22, 16, 18, 14]
 
 
-print(len(Train0), len(Train1),len(Train2))
+#print(len(Train0), len(Train1),len(Train2))
 
 class Parallel2(gym.Env):
 
