@@ -1,7 +1,10 @@
 tensorflow==2.8.2
 schedule==1.1.0
-sklearn
+scikit-learn
 requests==2.27.1
 matplotlib==3.3.4
 pandas==1.1.5
 pyyaml
+gymnasium
+numpy==1.26.4
+kubernetes
