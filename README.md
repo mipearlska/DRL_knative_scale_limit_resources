@@ -21,7 +21,21 @@ source $HOME/DRL_knative_scale_limit_resources/bin/activate
 pip install -U pip
 ```
 ```
+pip install setuptools==65.5.0 pip==21
+```
+```
+pip install wheel==0.38.0
+```
+- Then
+```
 pip install -r requirements.txt
+```
+- Then
+```
+pip install stable-baselines3
+```
+```
+pip install sb3-contrib
 ```
 - Locust Traffic Generator (https://locust.io/). Recommended install version 2.8.6.
 ```
